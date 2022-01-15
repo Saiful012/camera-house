@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    width: 1300px;
+}
+header {
+    display: flex;
+}
+nav  ul {
+    display: flex;
+    padding-top: 7px;
+    text-align: right; 
+}
+nav li{
+    list-style: none;
+    padding: 0px 20px;  
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.flex-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: indianred;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.half-width img{
+width: 80%;
+}
+#sponsor{
+    display: inline;
+}
+#sponsor img{
+    padding:0 40px;
+    width: auto;
+}
+h2{
+    text-align: center;
+}
+.products{
+   display: flex;
+}
