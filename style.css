@@ -49,8 +49,9 @@ width: 80%;
     display: inline;
 }
 #sponsor img{
-    padding:0 40px;
+    padding:0 20px;
     width: auto;
+    margin: 0 2%;
 }
 .margin{
     margin-right: 8%;
