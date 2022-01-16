@@ -1,14 +1,18 @@
 body{
     margin: 0;
     width: 1300px;
+    font-family: 'Ubuntu', sans-serif;
 }
 header {
     display: flex;
+    margin-bottom: 30px;
+}
+header h1{
+    padding-left: 50px;
 }
 nav  ul {
     display: flex;
     padding-top: 7px;
-    text-align: right; 
 }
 nav li{
     list-style: none;
@@ -17,6 +21,12 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
+}
+#start-bussiness{
+    margin-left: 5%;
+}
+.half-width img{
+  width: 80%;
 }
 .flex-container{
     display: flex;
@@ -42,9 +52,45 @@ width: 80%;
     padding:0 40px;
     width: auto;
 }
+.margin{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.padding{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 h2{
     text-align: center;
 }
 .products{
    display: flex;
+}
+.box{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+}
+ h6 .fas{
+  color: goldenrod;
+}
+.see-more {
+    text-align: right;
+}
+.see-more a{
+    text-decoration: none;
+    color: hotpink;
+    font-weight: 700;
+}
+.fab{
+    font-size: 30px;
+    color: white;
+}
+footer{
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    color: white;
 }
